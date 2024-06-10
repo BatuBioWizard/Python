@@ -1,2 +1,2 @@
-# Python
-Python integrated file read &amp; database creation
+# Python integrated file read & parse
+# python main.py samfile genloc.txtfile
