@@ -3,7 +3,7 @@ import sys
 import os
 
 if len(sys.argv) != 3:
-    print("You should put an input like this: python3 myScript.py mySamFile.sam myInputTable.txt")
+    print("You should put an input like this: python myScript.py mySamFile.sam myInputTable.txt")
     sys.exit(1)  
 
 gene_sam_file = sys.argv[1]
@@ -63,7 +63,7 @@ except ValueError:
 
 sam_data_dict = {}
 reference_count_dict = {}
-output_file = "2947291b.txt"
+output_file = "output.txt"
 
 try:
     with open(output_file, 'w') as output_file, open(gene_sam_file) as fileB:
